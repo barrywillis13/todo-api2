@@ -57,7 +57,7 @@ app.get('/todos/:id', (req, res) => {
 // R E T R I E V E   S P E C I F I C   T O D O   W I T H   T E X T /////
 
 app.get('/lovey/', (req, res) => {
-  res.send('LOVE YOU BABE!!!');
+  res.send('<h1>LOVE YOU BABE!!!</h1>');
 })
 
 // R E M O V E   A   T O D O ///////////////////////////////////////////
